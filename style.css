@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+}
+header {
+	height: 200px;
+	background-color: #ddd;
+	padding: 2em;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+section {
+	margin: 2em;
+	width: 50%;
+}
+footer {
+	width: 100%;
+	height: 5em;
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+	padding: 2em;
+	text-align: center;
+}
+#hubspotForm {
+	visibility:hidden;
+    position:fixed;
+    background-color: #ddd; 
+    height:300px;  
+    width:50%;
+    padding: 2em;
+    left: 25%;
+    top: 150px;
+    z-index:100; 
+    margin-left: 15px;  
+    border:2px solid #ff0000; 
+    -moz-box-shadow: 0 0 5px #ff0000;
+    -webkit-box-shadow: 0 0 5px #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+}
+#btnClose {
+	border: 2px solid black;
+	padding: 1em;
+	position: absolute;
+	right: 1em;
+	width: fit-content;
+}
+#btnClose:hover {
+	cursor: pointer;
+}
+.animate-pop {
+	visibility: visible!important;
+	/*display: inline-block!important;*/
+	width: 50%;
+	margin: 0 auto;
+	border: 2px solid blue;
+	z-index: 5;
+}
+.displayNone {
+	display: none!important;
+}
